@@ -1,8 +1,9 @@
-//write a function that will write to console the average of 5 numbers
-function getAverage (a,b,c,d,e,){
+/*   write a function that will return the difference between two number to a variable
+      and then log the variable in the console  */
+function getDiffernce (a,b){
 
-var average = (a + b + c + d + e) / 5;
-  console.log (average);
-  return average;
+var diff = (a - b);
+  console.log (diff);
+
 }
-getAverage(7,8,9,10,11);
+getDiffernce(9,2);
