@@ -1,9 +1,8 @@
-/*   write a function that will return the difference between two number to a variable
-      and then log the variable in the console  */
-function getDiffernce (a,b){
 
-var diff = (a - b);
-  console.log (diff);
+function combineStrings (a,b){
+
+var combined = (a + b);
+  console.log (combined);
 
 }
-getDiffernce(9,2);
+combineStrings("Pittsburgh "," Steelers");
