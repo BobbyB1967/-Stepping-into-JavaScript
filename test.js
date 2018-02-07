@@ -1,8 +1,9 @@
+function isPrime (num){
 
-function combineStrings (a,b){
+for(i=2; i<num; i++){
+if (num%i===0)
+return false;}
 
-var combined = (a + b);
-  console.log (combined);
-
+return true;
 }
-combineStrings("Pittsburgh "," Steelers");
+console.log (isPrime(598));
