@@ -1,9 +1,9 @@
+var t1 = Boolean("Learning");
+var t2 = Boolean("Js");
+var t3 = 1;
+while (t3 < 25){
+console.log(Boolean("Learning"));
 
-
-var age = 1;
-var text = "your 50";
-
-while (age < 50){
-console.log("You are not 50 years of age");
-  age++;
+t3++;
 }
+document.getElementById("ch11").innerHTML = Boolean("js");
